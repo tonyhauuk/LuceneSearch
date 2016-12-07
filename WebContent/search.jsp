@@ -38,24 +38,24 @@
 					<tr>
 						<td>
 							<div>
-								<a class="pic" href="http://210.51.166.48:8080/WebContent/search.jsp">
+								<a class="pic" href="http://127.0.0.0:8080/WebContent/search.jsp">
 									<img width="90" style="vertical-align: middle" src="./images/logo.png">
 								</a>
 									<input name="searchWord" id="searchId" type="text" size="20" width="20px" value="<%=ikv%>"> 
-									<input class="input_b" id="doSearch" type="submit" value="ËÑ   Ë÷">
+									<input class="input_b" id="doSearch" type="submit" value="æœ   ç´¢">
 							</div>
 							<div class="p">
 								  <label class="lb"> 
-									<input class="pub" type="radio" value="1" name="dot"> ÐÂÎÅ
+									<input class="pub" type="radio" value="1" name="dot"> æ–°é—»
 								</label> 
 								<label class="lb"> 
-									<input class="pub" type="radio" value="2" name="dot"> Î¢²©
+									<input class="pub" type="radio" value="2" name="dot"> å¾®åš
 								</label> 
 								<label class="lb"> 
-									<input class="pub" type="radio" value="3" name="dot"> ÂÛÌ³
+									<input class="pub" type="radio" value="3" name="dot"> è®ºå›
 								</label> 
 								<label class="lb"> 
-									<input class="pub" type="radio" value="4" name="dot"> ²©¿Í
+									<input class="pub" type="radio" value="4" name="dot"> åšå®¢
 								</label>
 								<script type="text/javascript">
 									var id = <%=idv%>;
@@ -64,10 +64,10 @@
 							</div>
 							<div class="p">
 								<label class="lb">
-									<input class="pub" type="radio" value="8" name="dotF"> ÕýÎÄ
+									<input class="pub" type="radio" value="8" name="dotF"> æ­£æ–‡
 								</label>
 								<label class="lb">
-									<input class="pub" type="radio" value="9" name="dotF"> ±êÌâ
+									<input class="pub" type="radio" value="9" name="dotF"> æ ‡é¢˜
 								</label>
 								<script type="text/javascript">
 									var fid = <%=fdv%>;
@@ -124,7 +124,7 @@
 		<%
 		if (pn > 1) { 
 		%>
-			<a class="n" href="search?searchWord=<%=ikv%>&dot=<%=idv%>&page=<%=pn - 1%>&dotF=<%=fdv%>">&lt;ÉÏÒ»Ò³</a>
+			<a class="n" href="search?searchWord=<%=ikv%>&dot=<%=idv%>&page=<%=pn - 1%>&dotF=<%=fdv%>">&lt;ä¸Šä¸€é¡µ</a>
 			<%} %>
 			<%
 			/*final int BASE = 10;
@@ -174,15 +174,14 @@
 			<%
 			if (isContinue)
 			%>
-			<a class="n" href="search?searchWord=<%=ikv%>&dot=<%=idv%>&page=<%=pn + 1%>&dotF=<%=fdv%>">ÏÂÒ»Ò³&gt;</a>
+			<a class="n" href="search?searchWord=<%=ikv%>&dot=<%=idv%>&page=<%=pn + 1%>&dotF=<%=fdv%>">ä¸‹ä¸€é¡µ&gt;</a>
 			<%
 			} 
 			%>
 		</p>
 	</div>
 	<div class="footer">
-		 ÃÅ»§½¨ÉèÓÉÒ¿ÐÇÔÚÏßÌá¹©¼¼ÊõÖ§³ÖËùÓÐ×ÊÑ¶µÄ²É¼¯¡¢·ÖÀà¾ùÓÉµçÄÔ³ÌÐò×Ô¶¯¾ö¶¨¡£ÏÔÊ¾µÄÊ±¼ä»òÈÕÆÚ·´Ó³µÄÊÇ±¨µÀ
-		ÔÚÒ¿ÐÇ×ÊÑ¶ÖÐ·¢²¼µÄÊ±¼ä»ò¸üÐÂµÄÊ±¼ä¡£
+		
 	</div>
 </body>
 </html>
