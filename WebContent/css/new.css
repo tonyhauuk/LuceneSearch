@@ -1,0 +1,166 @@
+@CHARSET "UTF-8";
+
+html, body {
+	height: 96%;
+}
+
+#Main {
+	min-height: 100%;
+}
+
+#searchId {
+	width: 535px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 6px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+}
+
+#searchForm {
+	margin-left: 20px;
+}
+
+.input_b {
+	border-radius: 2px;
+	width: 120px;
+	height: 32px;
+	font-size: 14px;
+	padding: 0px;
+	background-color: #DDD;
+	background-position: 0px -48px;
+	border: 0px none;
+	cursor: pointer;
+	border: 0px none;
+	margin: 0px;
+	background: rgb(72, 140, 250);
+	color: white;
+	width: 120px;
+	font-family: Microsoft YaHei;
+}
+
+.title {
+	line-height: 1.5;
+	font-family: arial;
+	font-size: 14px;
+}
+
+.p {
+	display: inline;
+	margin-top: 6px;
+	margin-left: 100px;
+}
+
+.lb {
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+.pub {
+	vertical-align: text-bottom;
+	margin-right: 6px;
+}
+
+.link {
+	font-weight: bold;
+}
+
+.inlink {
+	color: rgb(84, 84, 84);
+	font-size: 12px;
+}
+
+.tclass a:replink {
+	color: "#008000"
+}
+
+.date {
+	color: rgb(84, 84, 84);
+	font-size: 12px;
+}
+
+.txt {
+	font-size: 12px;
+	width: 700px;
+	font-family: arial;
+	margin-bottom: 20px;
+	color: black;
+}
+
+.tclass {
+	width: 700px;
+	margin-left: 20px;
+}
+
+.pic {
+	text-decoration: none;
+}
+
+.tclass a:link {
+	text-decoration: none;
+	color: #00C;
+}
+
+.tclass a:visited {
+	color: purple;
+	text-decoration: none;
+}
+
+.tclass a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	min-height: 100%;
+}
+
+li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none outside none;
+	border: 0px;
+	font-size: 12px;
+}
+
+#page {
+	font: 13px Microsoft YaHei;
+	white-space: nowrap;
+	margin: 25px 0px;
+}
+
+#page .n {
+	height: 22px;
+	border: 1px solid #E7ECF0;
+	padding: 0px 6px;
+}
+
+#page .sp {
+	width: 23px;
+	height: 22px;
+	border: 1px solid #E7ECF0;
+	cursor: pointer;
+}
+
+.ssp {
+	color: black;
+	width: 23px;
+	height: 22px;
+	border: 1px solid #E7ECF0;
+	cursor: pointer;
+	font: bold;
+}
+
+.n {
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	height: 10px;
+	margin-top: 10px;
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+	bottom: 0px;
+}
