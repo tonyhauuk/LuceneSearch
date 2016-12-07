@@ -170,9 +170,9 @@ public class ParseXML {
 						info.setOrigsrc(orig + "    ");
 					}
 					else
-						info.setOrigsrc("ÎŞ");
+						info.setOrigsrc("æ— ");
 					
-					info.setInlink("http://www.estar360.com/system/show_info.php?i_id=" + fileName);
+					info.setInlink("http://localhost/system/show_info.php?i_id=" + fileName);
 				
 					// Obtain reprint number
 					String repnum = null;
@@ -184,8 +184,8 @@ public class ParseXML {
 					}
 					
 					if (Integer.parseInt(repnum) > 0) {
-						info.setRepnum("  " + repnum + " ÌõÏàÍ¬ĞÂÎÅ");
-						info.setReplink("http://www.estar360.com/system/info_reprint.php?infoID=" + fileName);
+						info.setRepnum("  " + repnum + " æ¡ç›¸åŒæ–°é—»");
+						info.setReplink("http://localhost/system/info_reprint.php?infoID=" + fileName);
 					}
 					else
 						info.setRepnum("");
@@ -349,9 +349,9 @@ public class ParseXML {
 									info.setOrigsrc(orig + "    ");
 								}
 								else
-									info.setOrigsrc("ÎŞ");
+									info.setOrigsrc("æ— ");
 								
-								info.setInlink("http://www.estar360.com/system/show_info.php?i_id=" + fileName);
+								info.setInlink("http://localhost/system/show_info.php?i_id=" + fileName);
 								
 								// Obtain reprint number
 								String repnum = null;
@@ -363,8 +363,8 @@ public class ParseXML {
 								}
 								
 								if (Integer.parseInt(repnum) > 0) {
-									info.setRepnum("  " + repnum + " ÌõÏàÍ¬ĞÂÎÅ");
-									info.setReplink("http://www.estar360.com/system/info_reprint.php?infoID=" + fileName);
+									info.setRepnum("  " + repnum + " æ¡ç›¸åŒæ–°é—»");
+									info.setReplink("http://localhost/system/info_reprint.php?infoID=" + fileName);
 								}
 								else
 									info.setRepnum("");
